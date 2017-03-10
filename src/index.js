@@ -1,7 +1,7 @@
 import cssLonghand from '@team-griffin/css-longhand';
 import reduce from 'lodash.reduce';
 
-export const Sides = {
+export const Side = {
   A: 'a',
   X: 'x',
   Y: 'y',
