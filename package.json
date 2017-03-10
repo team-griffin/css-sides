@@ -35,6 +35,7 @@
     "eslint-plugin-react": "^6.10.0"
   },
   "dependencies": {
+    "@team-griffin/css-longhand": "^0.1.0",
     "lodash.reduce": "^4.6.0"
   }
 }

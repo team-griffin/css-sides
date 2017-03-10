@@ -15,9 +15,9 @@ const actualSides = [
 ];
 
 const sidesMap = {
-  [Sides.A]: [0, 1, 2, 3],
-  [Sides.X]: [0, 2],
-  [Sides.Y]: [1, 3],
+  [Side.A]: [ 0, 1, 2, 3 ],
+  [Side.X]: [ 0, 2 ],
+  [Side.Y]: [ 1, 3 ],
 };
 
 const cssSides = (prop, sides, value) => {
@@ -26,7 +26,8 @@ const cssSides = (prop, sides, value) => {
       ...result,
       [actualSides[idx]]: value,
     };
-  }, {}))
+  }, {
+  }));
 };
 
 export default cssSides;
