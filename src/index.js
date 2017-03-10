@@ -21,7 +21,7 @@ const sidesMap = {
 };
 
 const cssSides = (prop, sides, value) => {
-  return cssLonghand(prop, reduce(sidesMap, (result, idx) => {
+  return cssLonghand(prop, reduce(sidesMap[sides], (result, idx) => {
     return {
       ...result,
       [actualSides[idx]]: value,
