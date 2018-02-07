@@ -55,12 +55,12 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@team-griffin/css-longhand@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@team-griffin/css-longhand/-/css-longhand-1.0.0.tgz#a8e617ed9a62dd58bb23de102df4327a071f3fd4"
+"@team-griffin/css-sides@^1.0.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@team-griffin/css-sides/-/css-sides-1.1.0.tgz#1d44fc86ad571bc2ee0f715b068355de55f7aa0b"
   dependencies:
+    "@team-griffin/css-sides" "^1.0.0"
     lodash.reduce "^4.6.0"
-    lodash.upperfirst "^4.3.1"
 
 abbrev@1:
   version "1.1.1"
@@ -2079,10 +2079,6 @@ locate-path@^2.0.0:
 lodash.reduce@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.reduce/-/lodash.reduce-4.6.0.tgz#f1ab6b839299ad48f784abbf476596f03b914d3b"
-
-lodash.upperfirst@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/lodash.upperfirst/-/lodash.upperfirst-4.3.1.tgz#1365edf431480481ef0d1c68957a5ed99d49f7ce"
 
 lodash@^3.2.0:
   version "3.10.1"
