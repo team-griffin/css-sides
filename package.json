@@ -1,6 +1,6 @@
 {
   "name": "@team-griffin/css-sides",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/cjs/css-sides.js",
   "module": "dist/es/css-sides.js",
   "repository": "git@github.com:team-griffin/css-sides.git",
