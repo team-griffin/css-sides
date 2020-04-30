@@ -55,12 +55,12 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@team-griffin/css-sides@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@team-griffin/css-sides/-/css-sides-1.1.0.tgz#1d44fc86ad571bc2ee0f715b068355de55f7aa0b"
+"@team-griffin/css-longhand@^1.3.1":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@team-griffin/css-longhand/-/css-longhand-1.3.2.tgz#28c1174cd2b1aacd54fa4476b9a8429958eb662a"
+  integrity sha512-/DX6+nYp/b/9s2TLEhhY8YnQLWckP51eIAd+tYevZe2ybqfd98uA8xT+olKXOwZEcesj9UNCxDBZIRSqiGHcMA==
   dependencies:
-    "@team-griffin/css-sides" "^1.0.0"
-    lodash.reduce "^4.6.0"
+    ramda "^0.x.x"
 
 abbrev@1:
   version "1.1.1"
@@ -2442,6 +2442,11 @@ q@^1.1.2:
 qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
+
+ramda@^0.x.x:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.0.tgz#915dc29865c0800bf3f69b8fd6c279898b59de43"
+  integrity sha512-pVzZdDpWwWqEVVLshWUHjNwuVP7SfcmPraYuqocJp1yo2U1R7P+5QAfDhdItkuoGqIBnBYrtPp7rEPqDn9HlZA==
 
 randomatic@^1.1.3:
   version "1.1.7"

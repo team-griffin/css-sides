@@ -5,11 +5,11 @@ export default {
   input: 'src/index.js',
   output: [
     {
-      file: 'dist/es/css-sides.development.js',
+      file: 'dist/es/css-sides.js',
       format: 'es',
     },
     {
-      file: 'dist/cjs/css-sides.development.js',
+      file: 'dist/cjs/css-sides.js',
       format: 'cjs',
     },
   ],
@@ -20,4 +20,8 @@ export default {
       plugins: ['external-helpers'],
     }),
   ],
+  external: [
+    "@team-griffin/css-longhand",
+    "lodash.reduce"
+  ]
 };
